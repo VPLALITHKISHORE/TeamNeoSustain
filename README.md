@@ -25,8 +25,9 @@ India faces frequent water management challenges like undetected groundwater dep
 >  "HydroSense empowers proactive action through technology, turning raw water data into life-saving insights."
 
 ---
-## Video Demo of the Objective
+## 🎥 Video Demo of the Objective
 ![Working Video](Images/working%20video.mp4)
+
 ---
 ##  Architecture Overview
 
