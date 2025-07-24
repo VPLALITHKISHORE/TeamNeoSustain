@@ -1,143 +1,138 @@
-# TeamNeoSustain
-All India Developers Challenge 2025
-<h1 align="center">
-  HydroSense – Smart Water Monitoring & Anomaly Detection System
-</h1>
+# 💧 HydroSense – Smart Water Monitoring & Anomaly Detection System  
+**AIDC 2025 Final Submission – Team RMK_Innovators**
 
-<p align="center">
-  <b>AIDC 2025 Final Hackathon Submission</b><br>
-  <i>End-to-end AI-powered solution for real-time groundwater monitoring, prediction, public alerting, and complaint redressal</i>
-</p>
+![HydroSense Banner](https://your-image-link-here.com)
 
-<hr>
+---
 
-<h2>🚩 Problem Statement</h2>
+## 🚨 Problem Statement (PS)
 
-India faces recurring water crises due to undetected groundwater depletion, delayed civic response, and lack of public awareness. Despite the presence of Digital Water Level Recorders (DWLR), intelligent data-driven intervention is missing.
+India faces frequent water management challenges like undetected groundwater depletion, water leakages, and delayed civic response. With Digital Water Level Recorders (DWLR) installed in many regions, real-time water monitoring remains underutilized due to lack of intelligent processing, public awareness, and system integration.
 
-<h2>✅ Our Solution: HydroSense</h2>
+---
 
-HydroSense is a comprehensive, real-time water monitoring system that combines AI models, alert mechanisms, citizen participation, and data visualization to create a **smart groundwater governance platform**.
+## 🧠 Our Solution – HydroSense
 
-It enables:
-- Real-time anomaly detection from DWLR streams
-- Groundwater level prediction using machine learning
-- Automated SMS and voice call alerts to stakeholders
-- Complaint redressal system with geo-tagging and image capture
-- Live climate and water news feeds using web scraping
+**HydroSense** is an end-to-end smart water monitoring and alert system that:
+- Detects **real-time anomalies** in water levels using AI
+- Predicts **groundwater availability trends** using ML
+- Sends **automated SMS/voice alerts** to the public & corporation
+- Collects & visualizes **climate news** using live web scraping
+- Allows **citizens to raise water-related complaints** with geo-tagging
+- Offers **separate admin and public dashboards** for full transparency
 
-<hr>
+> ⚙️ "HydroSense empowers proactive action through technology, turning raw water data into life-saving insights."
 
-<h2>🧠 System Architecture</h2>
+---
 
-<div align="center">
-  <img src="images/dwlr_anomaly.png" width="90%">
-</div>
+## 🧩 Architecture Overview
 
-<table>
-  <tr><td><b>Edge Layer</b></td><td>DWLRs & Telemeter Systems (ThingSpeak Cloud)</td></tr>
-  <tr><td><b>Backend Layer</b></td><td>AI/ML Models (Isolation Forest, Random Forest), Flask APIs</td></tr>
-  <tr><td><b>Frontend Layer</b></td><td>Dashboards, Complaint Portal using ReactJS + HTML + CSS</td></tr>
-</table>
+- **Edge Layer**: DWLR → Telemeter → Cloud (ThingSpeak)
+- **Back-End Layer**:
+  - Anomaly Detection → `Isolation Forest`
+  - Forecasting Model → `Random Forest`
+  - Python APIs for processing, training, and alert triggers
+- **Front-End Layer**:
+  - Admin & Public Dashboards → `ReactJS + HTML + CSS`
+  - Complaint Platform → Geo-location & Image-based Form
+  - News Dashboard → Climate + Water News via `Web Scraping`
 
-<hr>
+---
 
-<h2>⚙️ AI Models Used</h2>
+## 🧪 AI & ML Models Used
 
-| Use Case              | Model            | Description |
-|----------------------|------------------|-------------|
-| Anomaly Detection    | Isolation Forest | Detects non-linear water level abnormalities |
-| Groundwater Forecast | Random Forest    | Monthly trend forecasting using historical and synthetic data |
+| Purpose | Model | Description |
+|--------|-------|-------------|
+| 🔍 Anomaly Detection | Isolation Forest | Captures outliers in DWLR readings and flags unexpected behavior |
+| 📈 Groundwater Forecast | Random Forest | Predicts future groundwater levels from past trends & environmental features |
 
-<hr>
+---
 
-<h2>🌐 Deployment Links</h2>
+## 📱 Modules Overview
 
-| Platform              | Role                       | URL |
-|-----------------------|----------------------------|-----|
-| Web App (Public)      | For Citizens               | [hydrosense-public.vercel.app](https://hydrosense-public.vercel.app) |
-| Web App (Admin)       | For Corporation & Managers | [hydrosense-admin.vercel.app](https://hydrosense-admin.vercel.app) |
-| Mobile App (Public)   | Coming Soon                | Play Store (TBA) |
-| Mobile App (Admin)    | Coming Soon                | Play Store (TBA) |
+### 🌊 1. **DWLR Anomaly Detection**
+- Real-time DWLR data stream (via ThingSpeak API)
+- Detects abnormal fluctuations & pinpoints location
+- Dashboard-friendly API output
 
-<hr>
+### 📡 2. **Alert System (Twilio)**
+- Voice/SMS alerts for:
+  - Public: “Water level critically low!”
+  - Service Manager: “DWLR unit malfunction”
+  - Corporation: “Leakage detected nearby”
+- Fully automated using Twilio API
 
-<h2>📦 Project Modules</h2>
+### 📰 3. **Water & Climate News Aggregator**
+- Live news scraper using Python & Selenium
+- Keywords: `"climate", "water", "flood", "drought", "global warming"`
+- Updates public dashboard with environmental news
 
-<h3>1. DWLR Anomaly Detection</h3>
-<p>Real-time streaming from sensors to cloud. Anomaly detection using Isolation Forest with location tagging and API-based data delivery.</p>
+### 🔮 4. **Groundwater Prediction System**
+- Streams past DWLR + environmental data
+- Forecasts groundwater trends monthly
+- Plotted on a visual dashboard
 
-<h3>2. Alert System (Twilio)</h3>
-<p>Sends real-time SMS and voice calls to:</p>
-<ul>
-  <li>Corporation – Alert for water leakage</li>
-  <li>Service Manager – DWLR unit malfunction</li>
-  <li>Public – Low water level warning</li>
-</ul>
+### 📍 5. **Public Complaint Raising Platform**
+- Location-based complaint form with image upload
+- Complaint tracker for status updates
+- Admin dashboard to resolve issues & close tickets
 
-<h3>3. Water & Climate News Scraper</h3>
-<p>Python-based web scraper using Selenium + BeautifulSoup to collect latest news on:</p>
-<ul>
-  <li>Climate</li>
-  <li>Water</li>
-  <li>Floods / Droughts</li>
-</ul>
+---
 
-<h3>4. Groundwater Level Forecast</h3>
-<p>Uses Random Forest model to predict water levels month-wise with feature extraction and visualization.</p>
+## 🖥️ Deployment Links
 
-<h3>5. Public Complaint Platform</h3>
-<p>Geo-tagged issue submission with photo evidence. Admin dashboard to manage, resolve, and track complaints.</p>
+| Platform | Role | URL |
+|----------|------|-----|
+| 🌐 WebApp (Public) | For Citizens | [Updatde Soon...]() |
+| 🛠 WebApp (Admin) | For Corporation & Service Manager | [Updatde Soon...]() |
+| 📱 Android App (Public) | Coming Soon | [Updatde Soon...](#) |
+| 📱 Android App (Admin) | Coming Soon | [Updatde Soon...](#) |
 
-<hr>
+---
 
-<h2>📸 Screenshots</h2>
+## 🖼️ Project Screenshots
 
-<div align="center">
-  <img src="images/alert_flow.png" width="90%" alt="Alert System Flow"><br><br>
-  <img src="images/complaint_form.png" width="90%" alt="Complaint Platform"><br><br>
-  <img src="images/forecast_model.png" width="90%" alt="Forecast Dashboard"><br><br>
-  <img src="images/news_dashboard.png" width="90%" alt="News Dashboard"><br><br>
-  <img src="images/public_dashboard.png" width="90%" alt="HydroSense Dashboard">
-</div>
+### 📊 DWLR Anomaly Detection Architecture
+![DWLR Anomaly](images/dwlr_anomaly.png)
 
-<hr>
+### 🔁 Alert System Flow
+![Alert System](images/alert_flow.png)
 
-<h2>🛠️ Tech Stack</h2>
+### 🌍 Public Complaint Platform
+![Complaint Module](images/complaint_form.png)
 
-| Component        | Technologies Used |
-|------------------|-------------------|
-| Backend API      | Python, Flask, Pandas |
-| AI/ML Models     | Scikit-learn (Isolation Forest, Random Forest) |
-| Web Frontend     | ReactJS, HTML5, CSS3 |
-| News Scraper     | Selenium, BeautifulSoup |
-| Mobile App       | Flutter (Coming Soon) |
-| Cloud Hosting    | ThingSpeak, Render, Vercel |
-| Notification API | Twilio |
-| Data Sources     | Government DWLR, Synthetic Data |
+### 🌧️ Groundwater Forecasting Dashboard
+![Forecasting](images/forecast_model.png)
 
-<hr>
+### 📰 Live News Feed - Climate & Water
+![News Dashboard](images/news_dashboard.png)
 
-<h2>🧑‍💻 Team – RMK_Innovators</h2>
+---
 
-| Name           | Role                            |
-|----------------|----------------------------------|
-| Aravindh M M   | Full Stack Developer, AI Models  |
-| [Member 2]     | Dashboard UI/UX & Integration    |
-| [Member 3]     | Alert System, Twilio Integration |
-| [Member 4]     | Data Engineering & Visualization |
+## 🛠️ Tech Stack
 
-<hr>
+| Layer | Tools / Languages |
+|-------|-------------------|
+| Backend | Python, Flask, Pandas, Sklearn, Twilio |
+| AI/ML | Isolation Forest, Random Forest |
+| Frontend | ReactJS, HTML5, CSS3 |
+| Cloud | Render, Vercel |
+| Web Scraping | Selenium, BeautifulSoup |
+| Data Source | DWLR (Govt), Synthetic + Historical Water Data |
 
-<h2>📌 Conclusion</h2>
+---
 
-HydroSense is a powerful, scalable platform designed to bridge the gap between groundwater data and real-world action. It not only monitors and predicts, but also communicates and empowers.
+## 📌 Final Words
 
-<i>Smart water governance begins with HydroSense.</i>
+HydroSense is not just a hackathon project — it’s a scalable, modular, and impactful system built to bring **clarity, awareness, and fast response** in managing India’s water ecosystem.
 
-<hr>
+> “Let’s not wait for the next flood or drought. With HydroSense, we act early.”
 
-<h2>📄 License</h2>
+---
 
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+## 📎 License
+
+[MIT License](LICENSE)
+
+---
 
