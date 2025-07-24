@@ -26,7 +26,9 @@ India faces frequent water management challenges like undetected groundwater dep
 
 ---
 ## 🎥 Video Demo of the Objective
-![Working Video](Images/working%20video.mp4)
+https://github.com/user-attachments/assets/82572ec8-5689-40d3-ada4-8b86bc0b79a7
+
+
 
 ---
 ##  Architecture Overview
