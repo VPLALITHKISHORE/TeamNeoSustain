@@ -84,10 +84,10 @@ India faces frequent water management challenges like undetected groundwater dep
 
 | Platform | Role | URL |
 |----------|------|-----|
-| 🌐 WebApp (Public) | For Citizens | [Updatde Soon...]() |
-| 🛠 WebApp (Admin) | For Corporation & Service Manager | [Updatde Soon...]() |
-| 📱 Android App (Public) | Coming Soon | [Updatde Soon...](#) |
-| 📱 Android App (Admin) | Coming Soon | [Updatde Soon...](#) |
+| 🌐 WebApp (Public) | For Citizens | [Updated Soon...]() |
+| 🛠 WebApp (Admin) | For Corporation & Service Manager | [Updated Soon...]() |
+| 📱 Android App (Public) | Coming Soon | [Updated Soon...](#) |
+| 📱 Android App (Admin) | Coming Soon | [Updated Soon...](#) |
 
 ---
 
