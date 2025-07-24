@@ -91,19 +91,19 @@ India faces frequent water management challenges like undetected groundwater dep
 ## 🖼️ Project Screenshots
 
 ### 📊 DWLR Anomaly Detection Architecture
-![DWLR Anomaly](images/dwlr_anomaly.png)
+![DWLR Anomaly](Images/dwlranomaly.jpg)
 
 ### 🔁 Alert System Flow
-![Alert System](images/alert_flow.png)
+![Alert System](Images/alertsystem.jpg)
 
 ### 🌍 Public Complaint Platform
-![Complaint Module](images/complaint_form.png)
+![Complaint Module](Images/publiceompaint.jpg)
 
 ### 🌧️ Groundwater Forecasting Dashboard
-![Forecasting](images/forecast_model.png)
+![Forecasting](Images/gwf.jpg)
 
 ### 📰 Live News Feed - Climate & Water
-![News Dashboard](images/news_dashboard.png)
+![News Dashboard](Images/news.jpg)
 
 ---
 
