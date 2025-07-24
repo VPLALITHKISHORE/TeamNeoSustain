@@ -1,7 +1,5 @@
 # 💧 HydroSense – Smart Water Monitoring & Anomaly Detection System  
-**AIDC 2025 Final Submission – Team RMK_Innovators**
-
-![HydroSense Banner](https://your-image-link-here.com)
+**AIDC 2025 Final Submission – Team NeoSustain**
 
 ---
 
@@ -118,7 +116,7 @@ India faces frequent water management challenges like undetected groundwater dep
 | Frontend | ReactJS, HTML5, CSS3 |
 | Cloud | Render, Vercel |
 | Web Scraping | Selenium, BeautifulSoup |
-| Data Source | DWLR (Govt), Synthetic + Historical Water Data |
+| Data Source | DWLR Datset got from SIH'24(Madhya Pradesh Dataset) |
 
 ---
 
