@@ -25,7 +25,10 @@ India faces frequent water management challenges like undetected groundwater dep
 >  "HydroSense empowers proactive action through technology, turning raw water data into life-saving insights."
 
 ---
+## Video Demo of the Objective
+https://github.com/user-attachments/assets/578395eb-285d-4b05-adc2-c73540d5b1b0
 
+---
 ##  Architecture Overview
 
 - **Edge Layer**: DWLR → Telemeter → Cloud (ThingSpeak)
@@ -130,8 +133,7 @@ HydroSense is not just a hackathon project — it’s a scalable, modular, and i
 > “Let’s not wait for the next flood or drought. With HydroSense, we act early.”
 
 ---
-## Video Demo of the Objective
-https://github.com/user-attachments/assets/578395eb-285d-4b05-adc2-c73540d5b1b0
+
 ##  License
 
 [MIT License](LICENSE)
