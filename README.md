@@ -1,4 +1,4 @@
-# 💧 HydroSense – Smart Water Monitoring & Anomaly Detection System  
+# 💧HydroSense – Smart Water Monitoring & Anomaly Detection System  
 **AIDC 2025 Final Submission – Team NeoSustain**
 
 ###  Overall Project Architecture
