@@ -89,7 +89,7 @@ https://github.com/user-attachments/assets/82572ec8-5689-40d3-ada4-8b86bc0b79a7
 
 | Platform | Role | URL |
 |----------|------|-----|
-|  WebApp (Public) | For Citizens | [Updated Soon...]() |
+|  WebApp (Public) | For Citizens | [https://team-neo-sustain.vercel.app/]() |
 |  WebApp (Admin) | For Corporation & Service Manager | [Updated Soon...]() |
 |  Android App (Public) | Coming Soon | [Updated Soon...](#) |
 |  Android App (Admin) | Coming Soon | [Updated Soon...](#) |
