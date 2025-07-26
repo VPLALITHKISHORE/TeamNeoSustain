@@ -19,8 +19,9 @@ India faces frequent water management challenges like undetected groundwater dep
 - Predicts **groundwater availability trends** using ML
 - Sends **automated SMS/voice alerts** to the public & corporation
 - Collects & visualizes **climate news** using live web scraping
-- Allows **citizens to raise water-related complaints** with geo-tagging
 - Offers **separate admin and public dashboards** for full transparency
+- Allows **citizens to raise water-related complaints** with geo-tagging
+
 
 >  "HydroSense empowers proactive action through technology, turning raw water data into life-saving insights."
 
