@@ -85,8 +85,14 @@ https://github.com/user-attachments/assets/82572ec8-5689-40d3-ada4-8b86bc0b79a7
 - Admin dashboard to resolve issues & close tickets
 
 ---
+##  Existing System by Government of India
 
-##  Deployment Links
+| Platform | Ministry | URL |
+|----------|------|-----|
+|  CGWB | Ministry of Jal Shakti | (https://gwdata.cgwb.gov.in/WaterLevel/DWLR) |
+
+---
+##  Our Project Deployment Links
 
 | Platform | Role | URL |
 |----------|------|-----|
@@ -125,7 +131,7 @@ https://github.com/user-attachments/assets/82572ec8-5689-40d3-ada4-8b86bc0b79a7
 | Frontend | ReactJS, HTML5, CSS3 |
 | Cloud | Render, Vercel |
 | Web Scraping | Selenium, BeautifulSoup |
-| Data Source | DWLR Datset got from SIH'24(Madhya Pradesh Dataset) |
+| Data Source | **DWLR Datset got from SIH'24(Madhya Pradesh Dataset - Ministry of Jal Shakti)** |
 
 ---
 
