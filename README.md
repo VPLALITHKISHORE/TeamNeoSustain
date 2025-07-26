@@ -92,8 +92,8 @@ https://github.com/user-attachments/assets/82572ec8-5689-40d3-ada4-8b86bc0b79a7
 |----------|------|-----|
 |  WebApp (Admin) | For Corporation & Service Manager | [https://team-neo-sustain.vercel.app/](https://team-neo-sustain.vercel.app/) |
 |  WebApp (Public) | For Citizens | [https://team-neo-sustain-user.vercel.app/](https://team-neo-sustain-user.vercel.app/) |
-|  Android App (Public) | Coming Soon | [Click Here 👇](https://drive.google.com/drive/folders/1Ya1yGRtfPqsVp6Bejxgatj808ABwN2gC) |
-|  Android App (Admin) | Coming Soon | [Click Here 👇](https://drive.google.com/drive/folders/1Ya1yGRtfPqsVp6Bejxgatj808ABwN2gC) |
+|  Android App (Public) | Deloployed Apk For Corporation| [Download Here 👉](https://drive.google.com/drive/folders/1Ya1yGRtfPqsVp6Bejxgatj808ABwN2gC) |
+|  Android App (Admin) | Deloployed Apk For Citizens| [Download Here 👉](https://drive.google.com/drive/folders/1Ya1yGRtfPqsVp6Bejxgatj808ABwN2gC) |
 
 ---
 
